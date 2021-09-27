@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.7
+    commands:
+      - apt-get update -y
+      - apt-get install -y build-essential
+  build:
+    commands:
+      - echo Build started on 'date'
+      - echo running test on pyCode 
+      - python -m unittest practiceTest.TestPractice -v > test_case.txt
+      - practice.py > practice_output.txt
+  post_build:
+    commands:
+      - echo Build completed on 'date'
+  artifacts:
+    files:
+      - test_case.txt
+      - practice_output.txt
+

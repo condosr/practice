@@ -1,1 +1,1 @@
-# practice-CI-CD
+This is a practice ci/cd pipeline that goes in to codecommit. A buildspec is passed with a python script, and a unit test python script.

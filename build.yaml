@@ -16,8 +16,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on 'date'
-  artifacts:
-    files:
-      - test_case.txt
-      - practice_output.txt
+artifacts:
+  files:
+    - test_case.txt
+    - practice_output.txt
 

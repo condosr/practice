@@ -6,7 +6,7 @@ from practice import myFunc
 class TestPractice(unittest.TestCase):
     
     def test_answer(self):
-        self.assertEqual(myFunc(2), 5)
+        self.assertEqual(myFunc(2), 4)
 
 #test_answer()
 
